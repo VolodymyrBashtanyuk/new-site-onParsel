@@ -13,7 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.2",
-    "parcel": "^2.9.2"
+    "parcel": "^2.9.2",
+    "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
