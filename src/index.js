@@ -1,1 +1,4 @@
-console.log("my name is Volodymyr")
+import mobileButton from "./js/header"; 
+
+
+mobileButton();
