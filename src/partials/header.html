@@ -1,18 +1,31 @@
 <header class="header">
-    <div>
-        <a href="/src/index.html">LOGO</a>
-        <button class="header__btn"> ON </button>
+    <a class="header__phone" href="tel:+380663456788">
+        <svg class="header__phone-icon" width="20" height="20">
+            <use href="/src/image/svg/mobile.svg#icon-phone"></use>
+        </svg>
+        <p class="header__phone-text" >Contact us: +380663456788</p>
+    </a>
+    <div class="header__wrapper">
+        <a href="/src/index.html" style="color:blue">LOGO</a>
+        <div class="icon__hiden" >
+            <svg class="header__icon" width="24" height="24">
+                <use href="/src/image/svg/mobile.svg#icon-close"></use>
+            </svg>
+        </div>
+        <button class="header__btn" aria-hidden="true"> 
+            <svg class="header__icon" width="24" height="24" >
+                <use href="/src/image/svg/mobile.svg#icon-menu"></use>
+            </svg>
+        </button>
     </div>
-    <nav class="header__nav">
-        <ul class="header__list">
-            <li class="header__item"><a href="">Main</a></li>
-            <li class="header__item"><a href="">About</a></li>
-            <li class="header__item"><a href="">Services</a></li>
-            <li class="header__item"><a href="">Contacts</a></li>
-        </ul>
-        <ul>
-            <li> +38050344343</li>
-        </ul>
-    </nav>
+
+    <!-- <nav class="header__nav"> -->
+        <!-- <ul class="header__list"> -->
+            <!-- <li class="header__item"><a href="">Main</a></li> -->
+            <!-- <li class="header__item"><a href="">About</a></li> -->
+            <!-- <li class="header__item"><a href="">Services</a></li> -->
+            <!-- <li class="header__item"><a href="">Contacts</a></li> -->
+        <!-- </ul> -->
+    <!-- </nav> -->
     
 </header>
